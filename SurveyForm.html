@@ -1,0 +1,69 @@
+<head>
+    
+</head>
+<body>
+    <header>
+        <h1 id="title">Ferenginar Customs and Immigration Form</h1>
+    </header>
+    <p id="description">
+        In accordance with Rule of Acquisition #100, all non-Ferengi immigrants and visitors to Ferenginar must submit this form upon arrival in the system. A small fee of one (1) bar of gold-pressed latinum is due upon form submission. 
+    </p>
+    <form id="survey-form">
+        <div class="form-group">
+            <label id="name-label">Name (required)</label></br>
+            <input id="name" type="text" placeholder="Enter name here" required></br>
+        </div>
+        <div class="form-group">
+            <label id="email-label">Email (required)</label></br>
+            <input id="email" type="email" placeholder="Enter your email" required></br>
+        </div>
+        <div class="form-group">
+            <label id="number-label">Phone Number (required)</label></br>
+            <input id="number" type="number" placeholder="Phone Number" min="1000000" max="9999999999" required></br>
+        </div>  
+        <div class="form-group">
+            <label id="Age-label">Age (optional)</label></br>
+            <input id="age" type="number" placeholder="Age" min="1" max="999"></br>
+        </div>  
+        <div class="form-group">
+            <label id="Hu-Man-label">In accordance with Rule of Acquisition #100, are you a Klingon, and therefore must pay double the fee which amounts to two bars of gold-pressed latinum?</label></br>
+            <select id="dropdown" type="number" placeholder="Phone Number" min="1000000" max="9999999999" required>
+                <option id="Yes-option-1">Yes</option>
+                <option id="No-option-1">No</option>
+            </select>    
+            </br>
+        </div> 
+        <div class="form-group">
+            <label id="species">Identify your species!</label></br>
+                <input name="species" type="radio" value="Human">Hu-man</br>
+                <input name="species" type="radio" value="Vulcan">Vulcan</br>
+                <input name="species" type="radio" value="Romulan">Romulan</br>
+                <input name="species" type="radio" value="Klingon">Klingon</br>
+        </div>  
+        <div class="form-group">
+            <label id="interests">State your purpose for arrival to Ferenginar! (Select all that apply.)</label></br>
+                <input name="interests" type="checkbox" value="Work">Work</br>
+                <input name="interests" type="checkbox" value="Pleasure">Pleasure</br>
+                <input name="interests" type="checkbox" value="Diplomacy">Diplomacy</br>
+                <input name="interests" type="checkbox" value="Other">Other</br>
+        </div>
+        <div class="text-area">
+            <textarea id="other-interest" placeholder="If you have any other purpose for your arrival, state it clearly here."></textarea>
+        </div>
+        <div class="form-group">
+            <button id="submit" type="submit">Submit</button></br>
+        </div>
+
+
+
+
+
+
+
+    </form>
+
+</body>
+
+<footer>
+
+</footer>
