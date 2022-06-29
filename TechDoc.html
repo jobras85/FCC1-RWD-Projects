@@ -1,24 +1,162 @@
 <html>
-    <link rel="stylesheet" href="styles.css">
+    <head>
+        <style>
+            @media only screen and (max-width: 768px) {
+/* For mobile phones: */
+            [class*="col-"] {
+                width: 100%;
+            }       
+            }
+            * {
+                box-sizing: border-box;
+                font-family: sans-serif;
+            }
+            body {
+                padding: 15px;
+            }
+            nav {
+                position: fixed;
+                display: block;
+                top: 0px;
+                left: 0px;
+                width: 250px;
+                height: 100%;
+                background-color: lightgray;
+            }
+            #navbar li {
+                border-top: 1px solid;
+                width: 100%;
+                line-height: 1.8;
+                list-style: none;
+                margin-left: 0px;
+            }
+            #main-doc {
+                position: absolute; 
+                margin-left: 250px;
+            }
+            section {
+                padding-bottom: 25px;
+                border: 5px solid pink;
+            }
+            header {
+                font-size: 1.8em;
+            }
+            code {
+                padding: 50px;
+            }
+        </style>
+    </head>
+    <body>
+        <nav id="navbar">
+            <header class="main-header">Companions:</header>
+            <ul>
+                <li>
+                    <a class="nav-link" href="#Drizzt_Do'Urden">Drizzt Do'Urden</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#Catti-brie">Catti-brie</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#Bruenor_Battlehammer">Bruenor Battlehammer</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#Wulfgar_Son_of_Beornegar">Wulfgar Son of Beornegar</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#Regis">Regis</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#Guenhwyvar">Guenhwyvar</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#Reference">Reference</a>
+                </li>
+            </ul>
 
+        </nav>
+        <main id="main-doc">
+            <header class="main-header">Technical capabilities of the Companions of the Hall</header>
+            <section id="Drizzt_Do'Urden" class="main-section">
+                <header class="character">Drizzt Do'Urden</header>
+                <p id="Drizzt-description">
+                    Drizzt is a Drow elf. His technical capabilities include:
+                </p>
+                <ul>
+                    <li>Cutting things</li>
+                    <li>Marrying Catti-brie</li>
+                    <li>Befriending non-Drow</li>
+                    <li>Brooding</li>
+                </ul>
+                <p>
+                    Drizzt is additionally known for multi-classing as a Ranger, Fighter, and Monk. Though he has some magical capabilities, these are innate and he is not considered a spellcaster. 
+                </p>
+            </section>
+            <section id="Catti-brie" class="main-section">
+                <header class="character">Catti-brie</header>
+                <p id="Catti-description">
+                    Catti-brie grew up in Icewind Dale on the slopes of Kelvin's Cairn. She is a hardy and brave friend to Drizzt, and became his wife.
+                </p>
+                <p>
+                    Although in her first life she was a fierce fighter, in her old age and in her second life she is known for her spellcasting abilities, which include:
+                </p>
+                <code>Flame Strike</code></br>
+                <code>Healing Word</code></br>
+                <code>Polymorph</code></br>
+                <code>Change shape (a druidic ability, though not a spell)</code></br>
+                <code>Spiritual Weapon</code></br>
+            </section>
+            <section id="Bruenor_Battlehammer" class="main-section">
+                <header class="character">Bruenor Battlehammer</header>
+                <p id="Bruenor-description">
+                    Bruenor is Drizzt's best friend. He is also the king of Mithral Hall, and later rules Gauntlgrym. He is a hero among dwarvenkind, who know him to be honest, fair, and fierce.
+                </p>
+                <p>
+                    Bruenor is also the adoptive father of both Catti-brie and Wulfgar, who are human orphans. Bruenor found Catti-brie in a ransacked village after her family was killed.
+                </p>
+            </section>
+            <section id="Wulfgar_Son_of_Beornegar" class="main-section">
+                <header class="character">Wulfgar Son of Beornegar</header>
+                <p id="Wulfgar-description">
+                    At a towering 7 ft. tall, Wulfgar is a fine specimen of human athleticism. He was originally born to the Elk tribe of Icewind Dale. During a fight against the people of Ten Towns, he was captured and imprisoned by Bruenor, who later adopted him. 
+                </p>
+                <p>
+                    Of special note is Wulfgar's magical warhammer, which was made by Bruenor himself. The warhammer responds to Wulfgar's call, disappearing from wherever it is located and reappearing in his hand. 
+                </p>
+            </section>
+            <section id="Regis" class="main-section">
+                <header class="character">Regis</header>
+                <p id="Regis-description">
+                    Regis is a halfling of ill-repute hailing from Calimshan. He is known for having several useful skills, and attained even more in his second life:
+                </p>
+                <ul>
+                    <li>The ability to sneak stealthy among foes</li>
+                    <li>The ability to eat as much as a man four times his size, or even more</li>
+                    <li>The ability to climb like a spider</li>
+                    <li>The ability to hold his breath underwater for more than an hour</li>
+                </ul>
+            </section>
+            <section id="Guenhwyvar" class="main-section">
+                <header class="character">Guenhwyvar</header>
+                <p id="Guenhwyvar-description">
+                    Guenhwyvar is a denizen of the astral plane taking the form of a great, 600-pound panther. She is Drizzt's long-time companion and confidant. She doesn't speak, but she is highly intelligent and understands Drizzt's commands.
+                </p>
+                <p>
+                    Guenhwyvar comes to the material plane after being summoned from an onyx figuring of ancient origins. She can regenerate when she returns to her astral home.
+                </p>
+            </section>
+            <section id="Reference" class="main-section">
+                <header class="character">Reference</header>
+                <p id="additional-info">
+                    Additional information can be found at: 
+                </p>
+                <ul>
+                    <li><a href="https://forgottenrealms.fandom.com/wiki/Drizzt_Do'Urden">Fandom</a></li>
+                    <li><a href="https://en.wikipedia.org/wiki/Forgotten_Realms">Wikipedia</a></li>
+                </ul>
+                
+            </section>
+        </main>
 
-
-
-    <main id="main-doc">
-        <section id="Drizzt_Do'Urden" class="main-section">
-            <header>Drizzt Do'Urden</header>
-            <p id="Drizzt-description"
-
-        </section>
-
-
-
-
-
-
-    </main>
-
-
-
+    </body>
 
 </html>
